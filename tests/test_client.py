@@ -3,7 +3,7 @@
 import httpx
 import pytest
 
-from opencode_client import (
+from opencode_py_client import (
     OpenCodeClient,
     OpenCodeConnectionError,
     OpenCodeInvalidRequestError,

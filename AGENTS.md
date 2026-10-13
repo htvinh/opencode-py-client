@@ -1,7 +1,7 @@
-# AGENTS.md — opencode-client
+# AGENTS.md — opencode-py-client
 
 ## State
-Scaffolded installable package (`pyproject.toml`, `src/opencode_client/`, `tests/`, `examples/`). Verified live against opencode 1.0.0 at `http://127.0.0.1:4096`. Source of truth for routes is the server's `/doc`; `idea.md` is the scope spec.
+Scaffolded installable package (`pyproject.toml`, `src/opencode_py_client/`, `tests/`, `examples/`). Verified live against opencode 1.0.0 at `http://127.0.0.1:4096`. Source of truth for routes is the server's `/doc`; `idea.md` is the scope spec.
 
 ## Commands
 - `pip install -e ".[dev]"` then `python -m pytest -q` (7 mocked-HTTP unit tests, no server needed)
@@ -9,7 +9,7 @@ Scaffolded installable package (`pyproject.toml`, `src/opencode_client/`, `tests
 - Web-chat sample (`examples/web-chat/`, zero-dep TS): `npx -y -p typescript@5 tsc -p tsconfig.json --noEmit` to typecheck; compile + serve over http to run (see its README). Do not add npm deps/frameworks.
 
 ## What to build
-Thin, stateless Python client: `App UI → opencode-client → OpenCode Server`. Server owns sessions, history, agents, streaming. Client only does HTTP, session create, ask, stream, timeouts, error mapping.
+Thin, stateless Python client: `App UI → opencode-py-client → OpenCode Server`. Server owns sessions, history, agents, streaming. Client only does HTTP, session create, ask, stream, timeouts, error mapping.
 
 Target public API (`idea.md` §4):
 - `OpenCodeClient(base_url, ...)` — default `http://127.0.0.1:4096`, overridable via ctor/env

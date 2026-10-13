@@ -1,6 +1,6 @@
 /**
  * Minimal typed client for an OpenCode server — mirrors the Python
- * `opencode-client` package. No dependencies; works in browsers and Node 18+.
+ * `opencode-py-client` package. No dependencies; works in browsers and Node 18+.
  *
  * Verified routes (opencode 1.0.0, server `/doc`):
  * - POST {base}/session -> Session JSON (`createSession`)

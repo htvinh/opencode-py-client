@@ -1,7 +1,7 @@
 # web-chat — TS front-end sample (no framework, no deps)
 
 Talks **directly** to the OpenCode server from the browser (CORS is open on
-the server). Mirrors the Python `opencode-client` endpoints:
+the server). Mirrors the Python `opencode-py-client` endpoints:
 
 - `POST /session` → `createSession()`
 - blocking `POST /session/{id}/message` → `ask()`

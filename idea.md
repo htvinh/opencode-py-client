@@ -93,4 +93,4 @@ A FastAPI wrapper may be added later if a browser-based UI needs an HTTP endpoin
 
 ## 8. Deliverable
 
-An installable Python package named `opencode-client`, with a concise README, minimal examples, automated tests, and verified compatibility with the target OpenCode server version.
+An installable Python package named `opencode-py-client`, with a concise README, minimal examples, automated tests, and verified compatibility with the target OpenCode server version.

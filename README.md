@@ -1,4 +1,4 @@
-# opencode-client
+# opencode-py-client
 
 Thin, stateless Python client for an [OpenCode](https://opencode.ai) server.
 The server owns sessions, history, agents, and streaming — this package only
@@ -19,7 +19,7 @@ Requires Python ≥ 3.9, `httpx` only.
 ## Use
 
 ```python
-from opencode_client import OpenCodeClient
+from opencode_py_client import OpenCodeClient
 
 with OpenCodeClient() as oc:  # default http://127.0.0.1:4096
     sid = oc.create_session("my chat")

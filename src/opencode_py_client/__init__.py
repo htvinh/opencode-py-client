@@ -1,4 +1,4 @@
-"""opencode-client — thin, stateless Python client for an OpenCode server."""
+"""opencode-py-client — thin, stateless Python client for an OpenCode server."""
 
 from .client import OpenCodeClient
 from .errors import (

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "opencode-client"
+name = "opencode-py-client"
 version = "0.1.0"
 description = "Thin, stateless Python client for an OpenCode server"
 readme = "README.md"

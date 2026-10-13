@@ -4,7 +4,7 @@ from __future__ import annotations
 
 
 class OpenCodeError(Exception):
-    """Base error for all opencode-client failures."""
+    """Base error for all opencode-py-client failures."""
 
     def __init__(self, message: str, *, status_code: int | None = None, detail: object = None):
         super().__init__(message)
